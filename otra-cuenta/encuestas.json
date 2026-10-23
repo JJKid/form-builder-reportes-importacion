@@ -1,0 +1,3887 @@
+[
+  {
+    "sid": "362778",
+    "title": "Anel",
+    "state": "warning",
+    "stateLabel": "Con advertencias, sin preguntas omitidas",
+    "operation": "validated",
+    "causes": [
+      "CP: LimeSurvey solicita la función de ubicación mediante . El importador conserva la pregunta, pero no conecta esa función con la ubicación del dispositivo. En Form Builder la persona debe escribir la respuesta; este ajuste no la completa automáticamente."
+    ],
+    "explanations": [
+      {
+        "category": "location_setting",
+        "question": "CP",
+        "displayName": "CP",
+        "questionText": "CÓDIGO POSTAL",
+        "original": "location_postal = 1",
+        "text": "LimeSurvey solicita la función de ubicación mediante location_postal = 1. El importador conserva la pregunta, pero no conecta esa función con la ubicación del dispositivo. En Form Builder la persona debe escribir la respuesta; este ajuste no la completa automáticamente.",
+        "issueIndex": 0
+      }
+    ],
+    "causeGroups": [
+      {
+        "category": "location_setting",
+        "questions": [
+          "CP"
+        ],
+        "text": "LimeSurvey solicita la función de ubicación mediante . El importador conserva la pregunta, pero no conecta esa función con la ubicación del dispositivo. En Form Builder la persona debe escribir la respuesta; este ajuste no la completa automáticamente.",
+        "originals": [
+          {
+            "question": "CP",
+            "value": "location_postal = 1"
+          }
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "level": "warning",
+        "message": "LimeSurvey envió la configuración location_postal. Se conserva su valor para consulta.",
+        "fieldId": "884",
+        "questionCode": "CP",
+        "code": "UNSUPPORTED_LOCATION_SETTING",
+        "details": {
+          "propertyName": "location_postal",
+          "sourceValue": "1"
+        }
+      }
+    ],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        "D",
+        "F",
+        "G",
+        "H",
+        "K",
+        "M",
+        "N",
+        "Q",
+        "S",
+        "T",
+        "Y"
+      ],
+      "parsedTypes": [
+        "!",
+        "D",
+        "F",
+        "G",
+        "H",
+        "K",
+        "M",
+        "N",
+        "Q",
+        "S",
+        "T",
+        "Y"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 10,
+      "totalQuestions": 344,
+      "topLevelQuestions": 112,
+      "parsedFields": 112,
+      "integratedSubquestions": 232,
+      "questionsWithoutReportedIssues": 111,
+      "partiallyConvertedQuestions": 1,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 112,
+      "conditionsConverted": 112,
+      "validationsDetected": 7,
+      "validationsConverted": 7,
+      "warnings": 1,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "197877",
+    "title": "Cuestionario de Seguimiento 1076",
+    "state": "warning",
+    "stateLabel": "Con advertencias, sin preguntas omitidas",
+    "operation": "validated",
+    "causes": [
+      "FamCambiosDetalles: La condición que decide si aparece esta pregunta consulta la pregunta 2093 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+      "DesayunoComo, DesayunoDonde, DesayunoDuracion, DesayunoRegularidad, DesayunaCompania: La condición que decide si aparece esta pregunta consulta la pregunta 2025 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+      "ComidaDuracion, ComidaComo, ComidaDonde, ComidaRegularidad, ComerCompania: La condición que decide si aparece esta pregunta consulta la pregunta 2039 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+      "CenaDuracion, CenaComo, CenaDonde, CenaRegularidad, CenaCompania: La condición que decide si aparece esta pregunta consulta la pregunta 2044 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+      "DesayunoComoF, DesayunoDondeF, DesayunoRegularidaF, DesayunoDuracionF, DesayunaCompaniaF: La condición que decide si aparece esta pregunta consulta la pregunta 2104 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+      "ComidaDuracionF, ComidaComoF, ComidaDondeF, ComidaRegularidadF, ComerCompaniaF: La condición que decide si aparece esta pregunta consulta la pregunta 2117 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+      "CenaDuracionF, CenaComoF, CenaDondeF, CenaRegularidadF, CenaCompaniaF: La condición que decide si aparece esta pregunta consulta la pregunta 2137 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir."
+    ],
+    "explanations": [
+      {
+        "category": "missing_reference",
+        "question": "FamCambiosDetalles",
+        "displayName": "FamCambiosDetalles",
+        "questionText": "Sobre sus familiares con respecto a los últimos 5 años:",
+        "original": "((197877X71X2093.NAOK == \"Y\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2093 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 0
+      },
+      {
+        "category": "missing_reference",
+        "question": "DesayunoComo",
+        "displayName": "DesayunoComo",
+        "questionText": "¿Cómo considera que es su desayuno?",
+        "original": "((197877X76X2025.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2025 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 1
+      },
+      {
+        "category": "missing_reference",
+        "question": "DesayunoDonde",
+        "displayName": "DesayunoDonde",
+        "questionText": "¿Dónde desayuna? Seleccione por orden de frecuencia.",
+        "original": "((197877X76X2025.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2025 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 2
+      },
+      {
+        "category": "missing_reference",
+        "question": "DesayunoDuracion",
+        "displayName": "DesayunoDuracion",
+        "questionText": "¿Cuánto tiempo tarda en desayunar?",
+        "original": "((197877X76X2025.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2025 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 3
+      },
+      {
+        "category": "missing_reference",
+        "question": "DesayunoRegularidad",
+        "displayName": "DesayunoRegularidad",
+        "questionText": "¿Qué tan regular es su horario para desayunar?",
+        "original": "((197877X76X2025.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2025 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 4
+      },
+      {
+        "category": "missing_reference",
+        "question": "DesayunaCompania",
+        "displayName": "DesayunaCompania",
+        "questionText": "Cuando usted desayuna ¿se encuentra acompañado?",
+        "original": "((197877X76X2025.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2025 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 5
+      },
+      {
+        "category": "missing_reference",
+        "question": "ComidaDuracion",
+        "displayName": "ComidaDuracion",
+        "questionText": "¿Cuánto tarda en comer entre semana?",
+        "original": "((197877X76X2039.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2039 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 6
+      },
+      {
+        "category": "missing_reference",
+        "question": "ComidaComo",
+        "displayName": "ComidaComo",
+        "questionText": "¿Cómo considera que es su comida?",
+        "original": "((197877X76X2039.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2039 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 7
+      },
+      {
+        "category": "missing_reference",
+        "question": "ComidaDonde",
+        "displayName": "ComidaDonde",
+        "questionText": "¿Dónde come entre semana?",
+        "original": "((197877X76X2039.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2039 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 8
+      },
+      {
+        "category": "missing_reference",
+        "question": "ComidaRegularidad",
+        "displayName": "ComidaRegularidad",
+        "questionText": "¿Qué tan regular es su horario de comida?",
+        "original": "((197877X76X2039.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2039 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 9
+      },
+      {
+        "category": "missing_reference",
+        "question": "ComerCompania",
+        "displayName": "ComerCompania",
+        "questionText": "Cuando usted come ¿se encuentra acompañado?",
+        "original": "((197877X76X2039.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2039 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 10
+      },
+      {
+        "category": "missing_reference",
+        "question": "CenaDuracion",
+        "displayName": "CenaDuracion",
+        "questionText": "¿Cuánto tiempo tarda en cenar?",
+        "original": "((197877X76X2044.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2044 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 11
+      },
+      {
+        "category": "missing_reference",
+        "question": "CenaComo",
+        "displayName": "CenaComo",
+        "questionText": "¿Cómo es su cena?",
+        "original": "((197877X76X2044.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2044 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 12
+      },
+      {
+        "category": "missing_reference",
+        "question": "CenaDonde",
+        "displayName": "CenaDonde",
+        "questionText": "¿Dónde cena entre semana regularmente?",
+        "original": "((197877X76X2044.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2044 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 13
+      },
+      {
+        "category": "missing_reference",
+        "question": "CenaRegularidad",
+        "displayName": "CenaRegularidad",
+        "questionText": "¿Qué tan regular es su horario para cenar?",
+        "original": "((197877X76X2044.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2044 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 14
+      },
+      {
+        "category": "missing_reference",
+        "question": "CenaCompania",
+        "displayName": "CenaCompania",
+        "questionText": "Cuando usted cena ¿se encuentra acompañado?",
+        "original": "((197877X76X2044.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2044 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 15
+      },
+      {
+        "category": "missing_reference",
+        "question": "DesayunoComoF",
+        "displayName": "DesayunoComoF",
+        "questionText": "¿Cómo considera que es su desayuno?",
+        "original": "((197877X77X2104.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2104 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 16
+      },
+      {
+        "category": "missing_reference",
+        "question": "DesayunoDondeF",
+        "displayName": "DesayunoDondeF",
+        "questionText": "¿Dónde desayuna? Seleccione por orden de frecuencia.",
+        "original": "((197877X77X2104.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2104 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 17
+      },
+      {
+        "category": "missing_reference",
+        "question": "DesayunoRegularidaF",
+        "displayName": "DesayunoRegularidaF",
+        "questionText": "¿Qué tan regular es su horario para desayunar?",
+        "original": "((197877X77X2104.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2104 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 18
+      },
+      {
+        "category": "missing_reference",
+        "question": "DesayunoDuracionF",
+        "displayName": "DesayunoDuracionF",
+        "questionText": "¿Cuánto tiempo tarda en desayunar?",
+        "original": "((197877X77X2104.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2104 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 19
+      },
+      {
+        "category": "missing_reference",
+        "question": "DesayunaCompaniaF",
+        "displayName": "DesayunaCompaniaF",
+        "questionText": "Cuando usted desayuna ¿se encuentra acompañado?",
+        "original": "((197877X77X2104.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2104 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 20
+      },
+      {
+        "category": "missing_reference",
+        "question": "ComidaDuracionF",
+        "displayName": "ComidaDuracionF",
+        "questionText": "¿Cuánto tarda en comer en fin de semana?",
+        "original": "((197877X77X2117.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2117 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 21
+      },
+      {
+        "category": "missing_reference",
+        "question": "ComidaComoF",
+        "displayName": "ComidaComoF",
+        "questionText": "¿Cómo considera que es su comida?",
+        "original": "((197877X77X2117.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2117 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 22
+      },
+      {
+        "category": "missing_reference",
+        "question": "ComidaDondeF",
+        "displayName": "ComidaDondeF",
+        "questionText": "¿Dónde come en fin de semana?",
+        "original": "((197877X77X2117.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2117 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 23
+      },
+      {
+        "category": "missing_reference",
+        "question": "ComidaRegularidadF",
+        "displayName": "ComidaRegularidadF",
+        "questionText": "¿Qué tan regular es su horario de comida?",
+        "original": "((197877X77X2117.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2117 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 24
+      },
+      {
+        "category": "missing_reference",
+        "question": "ComerCompaniaF",
+        "displayName": "ComerCompaniaF",
+        "questionText": "Cuando usted come ¿se encuentra acompañado?",
+        "original": "((197877X77X2117.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2117 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 25
+      },
+      {
+        "category": "missing_reference",
+        "question": "CenaDuracionF",
+        "displayName": "CenaDuracionF",
+        "questionText": "¿Cuánto tiempo tarda en cenar?",
+        "original": "((197877X77X2137.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2137 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 26
+      },
+      {
+        "category": "missing_reference",
+        "question": "CenaComoF",
+        "displayName": "CenaComoF",
+        "questionText": "¿Cómo es su cena?",
+        "original": "((197877X77X2137.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2137 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 27
+      },
+      {
+        "category": "missing_reference",
+        "question": "CenaDondeF",
+        "displayName": "CenaDondeF",
+        "questionText": "¿Dónde cena en fin de semana regularmente?",
+        "original": "((197877X77X2137.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2137 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 28
+      },
+      {
+        "category": "missing_reference",
+        "question": "CenaRegularidadF",
+        "displayName": "CenaRegularidadF",
+        "questionText": "¿Qué tan regular es su horario para cenar?",
+        "original": "((197877X77X2137.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2137 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 29
+      },
+      {
+        "category": "missing_reference",
+        "question": "CenaCompaniaF",
+        "displayName": "CenaCompaniaF",
+        "questionText": "Cuando usted cena ¿se encuentra acompañado?",
+        "original": "((197877X77X2137.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2137 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 30
+      }
+    ],
+    "causeGroups": [
+      {
+        "category": "missing_reference",
+        "questions": [
+          "FamCambiosDetalles"
+        ],
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2093 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "originals": [
+          {
+            "question": "FamCambiosDetalles",
+            "value": "((197877X71X2093.NAOK == \"Y\"))"
+          }
+        ]
+      },
+      {
+        "category": "missing_reference",
+        "questions": [
+          "DesayunoComo",
+          "DesayunoDonde",
+          "DesayunoDuracion",
+          "DesayunoRegularidad",
+          "DesayunaCompania"
+        ],
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2025 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "originals": [
+          {
+            "question": "DesayunoComo",
+            "value": "((197877X76X2025.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "DesayunoDonde",
+            "value": "((197877X76X2025.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "DesayunoDuracion",
+            "value": "((197877X76X2025.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "DesayunoRegularidad",
+            "value": "((197877X76X2025.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "DesayunaCompania",
+            "value": "((197877X76X2025.NAOK!=\"A25\"))"
+          }
+        ]
+      },
+      {
+        "category": "missing_reference",
+        "questions": [
+          "ComidaDuracion",
+          "ComidaComo",
+          "ComidaDonde",
+          "ComidaRegularidad",
+          "ComerCompania"
+        ],
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2039 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "originals": [
+          {
+            "question": "ComidaDuracion",
+            "value": "((197877X76X2039.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "ComidaComo",
+            "value": "((197877X76X2039.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "ComidaDonde",
+            "value": "((197877X76X2039.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "ComidaRegularidad",
+            "value": "((197877X76X2039.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "ComerCompania",
+            "value": "((197877X76X2039.NAOK!=\"A25\"))"
+          }
+        ]
+      },
+      {
+        "category": "missing_reference",
+        "questions": [
+          "CenaDuracion",
+          "CenaComo",
+          "CenaDonde",
+          "CenaRegularidad",
+          "CenaCompania"
+        ],
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2044 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "originals": [
+          {
+            "question": "CenaDuracion",
+            "value": "((197877X76X2044.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "CenaComo",
+            "value": "((197877X76X2044.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "CenaDonde",
+            "value": "((197877X76X2044.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "CenaRegularidad",
+            "value": "((197877X76X2044.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "CenaCompania",
+            "value": "((197877X76X2044.NAOK!=\"A25\"))"
+          }
+        ]
+      },
+      {
+        "category": "missing_reference",
+        "questions": [
+          "DesayunoComoF",
+          "DesayunoDondeF",
+          "DesayunoRegularidaF",
+          "DesayunoDuracionF",
+          "DesayunaCompaniaF"
+        ],
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2104 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "originals": [
+          {
+            "question": "DesayunoComoF",
+            "value": "((197877X77X2104.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "DesayunoDondeF",
+            "value": "((197877X77X2104.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "DesayunoRegularidaF",
+            "value": "((197877X77X2104.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "DesayunoDuracionF",
+            "value": "((197877X77X2104.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "DesayunaCompaniaF",
+            "value": "((197877X77X2104.NAOK!=\"A25\"))"
+          }
+        ]
+      },
+      {
+        "category": "missing_reference",
+        "questions": [
+          "ComidaDuracionF",
+          "ComidaComoF",
+          "ComidaDondeF",
+          "ComidaRegularidadF",
+          "ComerCompaniaF"
+        ],
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2117 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "originals": [
+          {
+            "question": "ComidaDuracionF",
+            "value": "((197877X77X2117.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "ComidaComoF",
+            "value": "((197877X77X2117.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "ComidaDondeF",
+            "value": "((197877X77X2117.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "ComidaRegularidadF",
+            "value": "((197877X77X2117.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "ComerCompaniaF",
+            "value": "((197877X77X2117.NAOK!=\"A25\"))"
+          }
+        ]
+      },
+      {
+        "category": "missing_reference",
+        "questions": [
+          "CenaDuracionF",
+          "CenaComoF",
+          "CenaDondeF",
+          "CenaRegularidadF",
+          "CenaCompaniaF"
+        ],
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 2137 de la encuesta 197877, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "originals": [
+          {
+            "question": "CenaDuracionF",
+            "value": "((197877X77X2137.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "CenaComoF",
+            "value": "((197877X77X2137.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "CenaDondeF",
+            "value": "((197877X77X2137.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "CenaRegularidadF",
+            "value": "((197877X77X2137.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "CenaCompaniaF",
+            "value": "((197877X77X2137.NAOK!=\"A25\"))"
+          }
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X71X2093\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3279",
+        "questionCode": "FamCambiosDetalles",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X71X2093.NAOK == \"Y\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X76X2025\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3212",
+        "questionCode": "DesayunoComo",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X76X2025.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X76X2025\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3213",
+        "questionCode": "DesayunoDonde",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X76X2025.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X76X2025\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3211",
+        "questionCode": "DesayunoDuracion",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X76X2025.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X76X2025\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3214",
+        "questionCode": "DesayunoRegularidad",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X76X2025.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X76X2025\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3263",
+        "questionCode": "DesayunaCompania",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X76X2025.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X76X2039\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3225",
+        "questionCode": "ComidaDuracion",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X76X2039.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X76X2039\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3226",
+        "questionCode": "ComidaComo",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X76X2039.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X76X2039\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3227",
+        "questionCode": "ComidaDonde",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X76X2039.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X76X2039\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3228",
+        "questionCode": "ComidaRegularidad",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X76X2039.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X76X2039\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3264",
+        "questionCode": "ComerCompania",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X76X2039.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X76X2044\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3230",
+        "questionCode": "CenaDuracion",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X76X2044.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X76X2044\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3231",
+        "questionCode": "CenaComo",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X76X2044.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X76X2044\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3232",
+        "questionCode": "CenaDonde",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X76X2044.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X76X2044\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3233",
+        "questionCode": "CenaRegularidad",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X76X2044.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X76X2044\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3265",
+        "questionCode": "CenaCompania",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X76X2044.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X77X2104\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3290",
+        "questionCode": "DesayunoComoF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X77X2104.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X77X2104\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3291",
+        "questionCode": "DesayunoDondeF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X77X2104.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X77X2104\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3292",
+        "questionCode": "DesayunoRegularidaF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X77X2104.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X77X2104\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3286",
+        "questionCode": "DesayunoDuracionF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X77X2104.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X77X2104\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3293",
+        "questionCode": "DesayunaCompaniaF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X77X2104.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X77X2117\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3303",
+        "questionCode": "ComidaDuracionF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X77X2117.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X77X2117\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3304",
+        "questionCode": "ComidaComoF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X77X2117.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X77X2117\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3305",
+        "questionCode": "ComidaDondeF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X77X2117.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X77X2117\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3306",
+        "questionCode": "ComidaRegularidadF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X77X2117.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X77X2117\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3307",
+        "questionCode": "ComerCompaniaF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X77X2117.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X77X2137\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3323",
+        "questionCode": "CenaDuracionF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X77X2137.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X77X2137\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3324",
+        "questionCode": "CenaComoF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X77X2137.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X77X2137\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3325",
+        "questionCode": "CenaDondeF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X77X2137.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X77X2137\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3326",
+        "questionCode": "CenaRegularidadF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X77X2137.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"197877X77X2137\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "3327",
+        "questionCode": "CenaCompaniaF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((197877X77X2137.NAOK!=\"A25\"))"
+        }
+      }
+    ],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        ";",
+        "B",
+        "D",
+        "F",
+        "L",
+        "M",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "Y"
+      ],
+      "parsedTypes": [
+        "!",
+        ";",
+        "B",
+        "D",
+        "F",
+        "L",
+        "M",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "Y"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 8,
+      "totalQuestions": 648,
+      "topLevelQuestions": 207,
+      "parsedFields": 207,
+      "integratedSubquestions": 441,
+      "questionsWithoutReportedIssues": 176,
+      "partiallyConvertedQuestions": 31,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 207,
+      "conditionsConverted": 176,
+      "validationsDetected": 14,
+      "validationsConverted": 14,
+      "warnings": 31,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "934678",
+    "title": "Itinerario",
+    "state": "warning",
+    "stateLabel": "Con advertencias, sin preguntas omitidas",
+    "operation": "validated",
+    "causes": [
+      "DesayunoComo, DesayunoDonde, DesayunoDuracion, DesayunoRegularidad, DesayunaCompania: La condición que decide si aparece esta pregunta consulta la pregunta 6936 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+      "ComidaDuracion, ComidaComo, ComidaDonde, ComidaRegularidad, ComerCompania: La condición que decide si aparece esta pregunta consulta la pregunta 6950 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+      "CenaDuracion, CenaComo, CenaDonde, CenaRegularidad, CenaCompania: La condición que decide si aparece esta pregunta consulta la pregunta 6955 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+      "DesayunoComoF, DesayunoDondeF, DesayunoRegularidaF, DesayunoDuracionF, DesayunaCompaniaF: La condición que decide si aparece esta pregunta consulta la pregunta 7015 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+      "ComidaDuracionF, ComidaComoF, ComidaDondeF, ComidaRegularidadF, ComerCompaniaF: La condición que decide si aparece esta pregunta consulta la pregunta 7028 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+      "CenaDuracionF, CenaComoF, CenaDondeF, CenaRegularidadF, CenaCompaniaF: La condición que decide si aparece esta pregunta consulta la pregunta 7048 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir."
+    ],
+    "explanations": [
+      {
+        "category": "missing_reference",
+        "question": "DesayunoComo",
+        "displayName": "DesayunoComo",
+        "questionText": "¿Cómo considera que es su desayuno?",
+        "original": "((451892X220X6936.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 6936 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 0
+      },
+      {
+        "category": "missing_reference",
+        "question": "DesayunoDonde",
+        "displayName": "DesayunoDonde",
+        "questionText": "¿Dónde desayuna? Seleccione por orden de frecuencia.",
+        "original": "((451892X220X6936.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 6936 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 1
+      },
+      {
+        "category": "missing_reference",
+        "question": "DesayunoDuracion",
+        "displayName": "DesayunoDuracion",
+        "questionText": "¿Cuánto tiempo tarda en desayunar?",
+        "original": "((451892X220X6936.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 6936 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 2
+      },
+      {
+        "category": "missing_reference",
+        "question": "DesayunoRegularidad",
+        "displayName": "DesayunoRegularidad",
+        "questionText": "¿Qué tan regular es su horario para desayunar?",
+        "original": "((451892X220X6936.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 6936 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 3
+      },
+      {
+        "category": "missing_reference",
+        "question": "DesayunaCompania",
+        "displayName": "DesayunaCompania",
+        "questionText": "Cuando usted desayuna ¿se encuentra acompañado?",
+        "original": "((451892X220X6936.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 6936 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 4
+      },
+      {
+        "category": "missing_reference",
+        "question": "ComidaDuracion",
+        "displayName": "ComidaDuracion",
+        "questionText": "¿Cuánto tarda en comer entre semana?",
+        "original": "((451892X220X6950.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 6950 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 5
+      },
+      {
+        "category": "missing_reference",
+        "question": "ComidaComo",
+        "displayName": "ComidaComo",
+        "questionText": "¿Cómo considera que es su comida?",
+        "original": "((451892X220X6950.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 6950 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 6
+      },
+      {
+        "category": "missing_reference",
+        "question": "ComidaDonde",
+        "displayName": "ComidaDonde",
+        "questionText": "¿Dónde come entre semana?",
+        "original": "((451892X220X6950.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 6950 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 7
+      },
+      {
+        "category": "missing_reference",
+        "question": "ComidaRegularidad",
+        "displayName": "ComidaRegularidad",
+        "questionText": "¿Qué tan regular es su horario de comida?",
+        "original": "((451892X220X6950.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 6950 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 8
+      },
+      {
+        "category": "missing_reference",
+        "question": "ComerCompania",
+        "displayName": "ComerCompania",
+        "questionText": "Cuando usted come ¿se encuentra acompañado?",
+        "original": "((451892X220X6950.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 6950 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 9
+      },
+      {
+        "category": "missing_reference",
+        "question": "CenaDuracion",
+        "displayName": "CenaDuracion",
+        "questionText": "¿Cuánto tiempo tarda en cenar?",
+        "original": "((451892X220X6955.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 6955 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 10
+      },
+      {
+        "category": "missing_reference",
+        "question": "CenaComo",
+        "displayName": "CenaComo",
+        "questionText": "¿Cómo es su cena?",
+        "original": "((451892X220X6955.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 6955 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 11
+      },
+      {
+        "category": "missing_reference",
+        "question": "CenaDonde",
+        "displayName": "CenaDonde",
+        "questionText": "¿Dónde cena entre semana regularmente?",
+        "original": "((451892X220X6955.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 6955 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 12
+      },
+      {
+        "category": "missing_reference",
+        "question": "CenaRegularidad",
+        "displayName": "CenaRegularidad",
+        "questionText": "¿Qué tan regular es su horario para cenar?",
+        "original": "((451892X220X6955.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 6955 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 13
+      },
+      {
+        "category": "missing_reference",
+        "question": "CenaCompania",
+        "displayName": "CenaCompania",
+        "questionText": "Cuando usted cena ¿se encuentra acompañado?",
+        "original": "((451892X220X6955.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 6955 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 14
+      },
+      {
+        "category": "missing_reference",
+        "question": "DesayunoComoF",
+        "displayName": "DesayunoComoF",
+        "questionText": "¿Cómo considera que es su desayuno?",
+        "original": "((451892X221X7015.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 7015 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 15
+      },
+      {
+        "category": "missing_reference",
+        "question": "DesayunoDondeF",
+        "displayName": "DesayunoDondeF",
+        "questionText": "¿Dónde desayuna? Seleccione por orden de frecuencia.",
+        "original": "((451892X221X7015.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 7015 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 16
+      },
+      {
+        "category": "missing_reference",
+        "question": "DesayunoRegularidaF",
+        "displayName": "DesayunoRegularidaF",
+        "questionText": "¿Qué tan regular es su horario para desayunar?",
+        "original": "((451892X221X7015.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 7015 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 17
+      },
+      {
+        "category": "missing_reference",
+        "question": "DesayunoDuracionF",
+        "displayName": "DesayunoDuracionF",
+        "questionText": "¿Cuánto tiempo tarda en desayunar?",
+        "original": "((451892X221X7015.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 7015 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 18
+      },
+      {
+        "category": "missing_reference",
+        "question": "DesayunaCompaniaF",
+        "displayName": "DesayunaCompaniaF",
+        "questionText": "Cuando usted desayuna ¿se encuentra acompañado?",
+        "original": "((451892X221X7015.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 7015 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 19
+      },
+      {
+        "category": "missing_reference",
+        "question": "ComidaDuracionF",
+        "displayName": "ComidaDuracionF",
+        "questionText": "¿Cuánto tarda en comer en fin de semana?",
+        "original": "((451892X221X7028.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 7028 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 20
+      },
+      {
+        "category": "missing_reference",
+        "question": "ComidaComoF",
+        "displayName": "ComidaComoF",
+        "questionText": "¿Cómo considera que es su comida?",
+        "original": "((451892X221X7028.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 7028 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 21
+      },
+      {
+        "category": "missing_reference",
+        "question": "ComidaDondeF",
+        "displayName": "ComidaDondeF",
+        "questionText": "¿Dónde come en fin de semana?",
+        "original": "((451892X221X7028.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 7028 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 22
+      },
+      {
+        "category": "missing_reference",
+        "question": "ComidaRegularidadF",
+        "displayName": "ComidaRegularidadF",
+        "questionText": "¿Qué tan regular es su horario de comida?",
+        "original": "((451892X221X7028.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 7028 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 23
+      },
+      {
+        "category": "missing_reference",
+        "question": "ComerCompaniaF",
+        "displayName": "ComerCompaniaF",
+        "questionText": "Cuando usted come ¿se encuentra acompañado?",
+        "original": "((451892X221X7028.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 7028 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 24
+      },
+      {
+        "category": "missing_reference",
+        "question": "CenaDuracionF",
+        "displayName": "CenaDuracionF",
+        "questionText": "¿Cuánto tiempo tarda en cenar?",
+        "original": "((451892X221X7048.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 7048 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 25
+      },
+      {
+        "category": "missing_reference",
+        "question": "CenaComoF",
+        "displayName": "CenaComoF",
+        "questionText": "¿Cómo es su cena?",
+        "original": "((451892X221X7048.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 7048 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 26
+      },
+      {
+        "category": "missing_reference",
+        "question": "CenaDondeF",
+        "displayName": "CenaDondeF",
+        "questionText": "¿Dónde cena en fin de semana regularmente?",
+        "original": "((451892X221X7048.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 7048 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 27
+      },
+      {
+        "category": "missing_reference",
+        "question": "CenaRegularidadF",
+        "displayName": "CenaRegularidadF",
+        "questionText": "¿Qué tan regular es su horario para cenar?",
+        "original": "((451892X221X7048.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 7048 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 28
+      },
+      {
+        "category": "missing_reference",
+        "question": "CenaCompaniaF",
+        "displayName": "CenaCompaniaF",
+        "questionText": "Cuando usted cena ¿se encuentra acompañado?",
+        "original": "((451892X221X7048.NAOK!=\"A25\"))",
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 7048 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "issueIndex": 29
+      }
+    ],
+    "causeGroups": [
+      {
+        "category": "missing_reference",
+        "questions": [
+          "DesayunoComo",
+          "DesayunoDonde",
+          "DesayunoDuracion",
+          "DesayunoRegularidad",
+          "DesayunaCompania"
+        ],
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 6936 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "originals": [
+          {
+            "question": "DesayunoComo",
+            "value": "((451892X220X6936.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "DesayunoDonde",
+            "value": "((451892X220X6936.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "DesayunoDuracion",
+            "value": "((451892X220X6936.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "DesayunoRegularidad",
+            "value": "((451892X220X6936.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "DesayunaCompania",
+            "value": "((451892X220X6936.NAOK!=\"A25\"))"
+          }
+        ]
+      },
+      {
+        "category": "missing_reference",
+        "questions": [
+          "ComidaDuracion",
+          "ComidaComo",
+          "ComidaDonde",
+          "ComidaRegularidad",
+          "ComerCompania"
+        ],
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 6950 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "originals": [
+          {
+            "question": "ComidaDuracion",
+            "value": "((451892X220X6950.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "ComidaComo",
+            "value": "((451892X220X6950.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "ComidaDonde",
+            "value": "((451892X220X6950.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "ComidaRegularidad",
+            "value": "((451892X220X6950.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "ComerCompania",
+            "value": "((451892X220X6950.NAOK!=\"A25\"))"
+          }
+        ]
+      },
+      {
+        "category": "missing_reference",
+        "questions": [
+          "CenaDuracion",
+          "CenaComo",
+          "CenaDonde",
+          "CenaRegularidad",
+          "CenaCompania"
+        ],
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 6955 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "originals": [
+          {
+            "question": "CenaDuracion",
+            "value": "((451892X220X6955.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "CenaComo",
+            "value": "((451892X220X6955.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "CenaDonde",
+            "value": "((451892X220X6955.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "CenaRegularidad",
+            "value": "((451892X220X6955.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "CenaCompania",
+            "value": "((451892X220X6955.NAOK!=\"A25\"))"
+          }
+        ]
+      },
+      {
+        "category": "missing_reference",
+        "questions": [
+          "DesayunoComoF",
+          "DesayunoDondeF",
+          "DesayunoRegularidaF",
+          "DesayunoDuracionF",
+          "DesayunaCompaniaF"
+        ],
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 7015 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "originals": [
+          {
+            "question": "DesayunoComoF",
+            "value": "((451892X221X7015.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "DesayunoDondeF",
+            "value": "((451892X221X7015.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "DesayunoRegularidaF",
+            "value": "((451892X221X7015.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "DesayunoDuracionF",
+            "value": "((451892X221X7015.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "DesayunaCompaniaF",
+            "value": "((451892X221X7015.NAOK!=\"A25\"))"
+          }
+        ]
+      },
+      {
+        "category": "missing_reference",
+        "questions": [
+          "ComidaDuracionF",
+          "ComidaComoF",
+          "ComidaDondeF",
+          "ComidaRegularidadF",
+          "ComerCompaniaF"
+        ],
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 7028 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "originals": [
+          {
+            "question": "ComidaDuracionF",
+            "value": "((451892X221X7028.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "ComidaComoF",
+            "value": "((451892X221X7028.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "ComidaDondeF",
+            "value": "((451892X221X7028.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "ComidaRegularidadF",
+            "value": "((451892X221X7028.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "ComerCompaniaF",
+            "value": "((451892X221X7028.NAOK!=\"A25\"))"
+          }
+        ]
+      },
+      {
+        "category": "missing_reference",
+        "questions": [
+          "CenaDuracionF",
+          "CenaComoF",
+          "CenaDondeF",
+          "CenaRegularidadF",
+          "CenaCompaniaF"
+        ],
+        "text": "La condición que decide si aparece esta pregunta consulta la pregunta 7048 de la encuesta 451892, pero no se recibió ninguna pregunta con ese identificador. Form Builder conserva la pregunta, pero no puede mostrarla u ocultarla según esa respuesta porque falta la pregunta consultada. Esa condición se deja sin convertir.",
+        "originals": [
+          {
+            "question": "CenaDuracionF",
+            "value": "((451892X221X7048.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "CenaComoF",
+            "value": "((451892X221X7048.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "CenaDondeF",
+            "value": "((451892X221X7048.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "CenaRegularidadF",
+            "value": "((451892X221X7048.NAOK!=\"A25\"))"
+          },
+          {
+            "question": "CenaCompaniaF",
+            "value": "((451892X221X7048.NAOK!=\"A25\"))"
+          }
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X220X6936\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2264",
+        "questionCode": "DesayunoComo",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X220X6936.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X220X6936\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2265",
+        "questionCode": "DesayunoDonde",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X220X6936.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X220X6936\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2266",
+        "questionCode": "DesayunoDuracion",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X220X6936.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X220X6936\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2267",
+        "questionCode": "DesayunoRegularidad",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X220X6936.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X220X6936\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2268",
+        "questionCode": "DesayunaCompania",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X220X6936.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X220X6950\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2278",
+        "questionCode": "ComidaDuracion",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X220X6950.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X220X6950\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2279",
+        "questionCode": "ComidaComo",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X220X6950.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X220X6950\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2280",
+        "questionCode": "ComidaDonde",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X220X6950.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X220X6950\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2281",
+        "questionCode": "ComidaRegularidad",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X220X6950.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X220X6950\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2282",
+        "questionCode": "ComerCompania",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X220X6950.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X220X6955\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2298",
+        "questionCode": "CenaDuracion",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X220X6955.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X220X6955\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2299",
+        "questionCode": "CenaComo",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X220X6955.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X220X6955\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2300",
+        "questionCode": "CenaDonde",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X220X6955.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X220X6955\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2301",
+        "questionCode": "CenaRegularidad",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X220X6955.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X220X6955\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2302",
+        "questionCode": "CenaCompania",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X220X6955.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X221X7015\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2450",
+        "questionCode": "DesayunoComoF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X221X7015.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X221X7015\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2451",
+        "questionCode": "DesayunoDondeF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X221X7015.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X221X7015\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2452",
+        "questionCode": "DesayunoRegularidaF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X221X7015.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X221X7015\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2453",
+        "questionCode": "DesayunoDuracionF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X221X7015.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X221X7015\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2454",
+        "questionCode": "DesayunaCompaniaF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X221X7015.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X221X7028\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2465",
+        "questionCode": "ComidaDuracionF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X221X7028.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X221X7028\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2466",
+        "questionCode": "ComidaComoF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X221X7028.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X221X7028\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2467",
+        "questionCode": "ComidaDondeF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X221X7028.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X221X7028\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2468",
+        "questionCode": "ComidaRegularidadF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X221X7028.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X221X7028\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2469",
+        "questionCode": "ComerCompaniaF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X221X7028.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X221X7048\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2485",
+        "questionCode": "CenaDuracionF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X221X7048.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X221X7048\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2486",
+        "questionCode": "CenaComoF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X221X7048.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X221X7048\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2487",
+        "questionCode": "CenaDondeF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X221X7048.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X221X7048\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2488",
+        "questionCode": "CenaRegularidadF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X221X7048.NAOK!=\"A25\"))"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "LimeSurvey condition reference \"451892X221X7048\" could not be matched to any imported question or subquestion. The condition was omitted.",
+        "fieldId": "2489",
+        "questionCode": "CenaCompaniaF",
+        "code": "MISSING_CONDITION_REFERENCE",
+        "details": {
+          "sourceExpression": "((451892X221X7048.NAOK!=\"A25\"))"
+        }
+      }
+    ],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        ";",
+        "M",
+        "P",
+        "R",
+        "Y"
+      ],
+      "parsedTypes": [
+        "!",
+        ";",
+        "M",
+        "P",
+        "R",
+        "Y"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 2,
+      "totalQuestions": 373,
+      "topLevelQuestions": 131,
+      "parsedFields": 131,
+      "integratedSubquestions": 242,
+      "questionsWithoutReportedIssues": 101,
+      "partiallyConvertedQuestions": 30,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 131,
+      "conditionsConverted": 101,
+      "validationsDetected": 8,
+      "validationsConverted": 8,
+      "warnings": 30,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "171136",
+    "title": "palabras",
+    "state": "warning",
+    "stateLabel": "Con advertencias, sin preguntas omitidas",
+    "operation": "validated",
+    "causes": [
+      "OBESIDAD (grupo 108): Este grupo no tiene preguntas. No se crea una página para él y se continúa con las preguntas de los otros grupos.",
+      "A1, A4, A3, A5, A6: LimeSurvey fija 45 segundos para responder. El importador no añade un reloj que termine ese plazo en Form Builder, por lo que se puede seguir respondiendo después de esos 45 segundos."
+    ],
+    "explanations": [
+      {
+        "category": "empty_groups",
+        "question": "OBESIDAD (grupo 108)",
+        "displayName": "OBESIDAD (grupo 108)",
+        "questionText": "",
+        "original": "Preguntas en el grupo: 0",
+        "text": "Este grupo no tiene preguntas. No se crea una página para él y se continúa con las preguntas de los otros grupos.",
+        "issueIndex": 0
+      },
+      {
+        "category": "time_limit",
+        "question": "A1",
+        "displayName": "A1",
+        "questionText": "COVID",
+        "original": "time_limit = 45",
+        "text": "LimeSurvey fija 45 segundos para responder. El importador no añade un reloj que termine ese plazo en Form Builder, por lo que se puede seguir respondiendo después de esos 45 segundos.",
+        "issueIndex": 1
+      },
+      {
+        "category": "time_limit",
+        "question": "A4",
+        "displayName": "A4",
+        "questionText": "OBESIDAD",
+        "original": "time_limit = 45",
+        "text": "LimeSurvey fija 45 segundos para responder. El importador no añade un reloj que termine ese plazo en Form Builder, por lo que se puede seguir respondiendo después de esos 45 segundos.",
+        "issueIndex": 2
+      },
+      {
+        "category": "time_limit",
+        "question": "A3",
+        "displayName": "A3",
+        "questionText": "VACUNA",
+        "original": "time_limit = 45",
+        "text": "LimeSurvey fija 45 segundos para responder. El importador no añade un reloj que termine ese plazo en Form Builder, por lo que se puede seguir respondiendo después de esos 45 segundos.",
+        "issueIndex": 3
+      },
+      {
+        "category": "time_limit",
+        "question": "A5",
+        "displayName": "A5",
+        "questionText": "DIETA",
+        "original": "time_limit = 45",
+        "text": "LimeSurvey fija 45 segundos para responder. El importador no añade un reloj que termine ese plazo en Form Builder, por lo que se puede seguir respondiendo después de esos 45 segundos.",
+        "issueIndex": 4
+      },
+      {
+        "category": "time_limit",
+        "question": "A6",
+        "displayName": "A6",
+        "questionText": "EJERCICIO",
+        "original": "time_limit = 45",
+        "text": "LimeSurvey fija 45 segundos para responder. El importador no añade un reloj que termine ese plazo en Form Builder, por lo que se puede seguir respondiendo después de esos 45 segundos.",
+        "issueIndex": 5
+      }
+    ],
+    "causeGroups": [
+      {
+        "category": "empty_groups",
+        "questions": [
+          "OBESIDAD (grupo 108)"
+        ],
+        "text": "Este grupo no tiene preguntas. No se crea una página para él y se continúa con las preguntas de los otros grupos.",
+        "originals": [
+          {
+            "question": "OBESIDAD (grupo 108)",
+            "value": "Preguntas en el grupo: 0"
+          }
+        ]
+      },
+      {
+        "category": "time_limit",
+        "questions": [
+          "A1",
+          "A4",
+          "A3",
+          "A5",
+          "A6"
+        ],
+        "text": "LimeSurvey fija 45 segundos para responder. El importador no añade un reloj que termine ese plazo en Form Builder, por lo que se puede seguir respondiendo después de esos 45 segundos.",
+        "originals": [
+          {
+            "question": "A1",
+            "value": "time_limit = 45"
+          },
+          {
+            "question": "A4",
+            "value": "time_limit = 45"
+          },
+          {
+            "question": "A3",
+            "value": "time_limit = 45"
+          },
+          {
+            "question": "A5",
+            "value": "time_limit = 45"
+          },
+          {
+            "question": "A6",
+            "value": "time_limit = 45"
+          }
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "level": "warning",
+        "message": "El grupo OBESIDAD (gid=108) no contiene preguntas; se conserva su contenido y se continúa con los demás grupos.",
+        "code": "INVALID_SOURCE"
+      },
+      {
+        "level": "warning",
+        "message": "La regla time_limit de A1 no se ejecuta: no hay temporizador ni se ejecutan sus acciones o bloqueos de navegación.",
+        "fieldId": "7998",
+        "questionCode": "A1",
+        "code": "UNSUPPORTED_TIMER",
+        "details": {
+          "rule": "time_limit",
+          "sourceValue": "45"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "La regla time_limit de A4 no se ejecuta: no hay temporizador ni se ejecutan sus acciones o bloqueos de navegación.",
+        "fieldId": "8001",
+        "questionCode": "A4",
+        "code": "UNSUPPORTED_TIMER",
+        "details": {
+          "rule": "time_limit",
+          "sourceValue": "45"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "La regla time_limit de A3 no se ejecuta: no hay temporizador ni se ejecutan sus acciones o bloqueos de navegación.",
+        "fieldId": "8000",
+        "questionCode": "A3",
+        "code": "UNSUPPORTED_TIMER",
+        "details": {
+          "rule": "time_limit",
+          "sourceValue": "45"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "La regla time_limit de A5 no se ejecuta: no hay temporizador ni se ejecutan sus acciones o bloqueos de navegación.",
+        "fieldId": "8002",
+        "questionCode": "A5",
+        "code": "UNSUPPORTED_TIMER",
+        "details": {
+          "rule": "time_limit",
+          "sourceValue": "45"
+        }
+      },
+      {
+        "level": "warning",
+        "message": "La regla time_limit de A6 no se ejecuta: no hay temporizador ni se ejecutan sus acciones o bloqueos de navegación.",
+        "fieldId": "8003",
+        "questionCode": "A6",
+        "code": "UNSUPPORTED_TIMER",
+        "details": {
+          "rule": "time_limit",
+          "sourceValue": "45"
+        }
+      }
+    ],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "T"
+      ],
+      "parsedTypes": [
+        "T"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 2,
+      "totalQuestions": 9,
+      "topLevelQuestions": 9,
+      "parsedFields": 9,
+      "integratedSubquestions": 0,
+      "questionsWithoutReportedIssues": 4,
+      "partiallyConvertedQuestions": 5,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 9,
+      "conditionsConverted": 9,
+      "validationsDetected": 5,
+      "validationsConverted": 0,
+      "warnings": 6,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "458852",
+    "title": "roedores",
+    "state": "partial",
+    "stateLabel": "Con preguntas omitidas",
+    "operation": "validated",
+    "causes": [
+      "upload: La pregunta solicita subir archivos, como una fotografía o un documento. El importador no genera todavía un control de carga de archivos para este tipo de LimeSurvey (|), por lo que omite esa pregunta. Las demás preguntas que sí pueden convertirse se conservan."
+    ],
+    "explanations": [
+      {
+        "category": "unsupported_type",
+        "question": "upload",
+        "displayName": "upload",
+        "questionText": "Envía un archivo con tus datos, ordenados en las siguientes columnas y separados por una coma.",
+        "original": "Tipo de pregunta en LimeSurvey: |",
+        "text": "La pregunta solicita subir archivos, como una fotografía o un documento. El importador no genera todavía un control de carga de archivos para este tipo de LimeSurvey (|), por lo que omite esa pregunta. Las demás preguntas que sí pueden convertirse se conservan.",
+        "issueIndex": 0
+      }
+    ],
+    "causeGroups": [
+      {
+        "category": "unsupported_type",
+        "questions": [
+          "upload"
+        ],
+        "text": "La pregunta solicita subir archivos, como una fotografía o un documento. El importador no genera todavía un control de carga de archivos para este tipo de LimeSurvey (|), por lo que omite esa pregunta. Las demás preguntas que sí pueden convertirse se conservan.",
+        "originals": [
+          {
+            "question": "upload",
+            "value": "Tipo de pregunta en LimeSurvey: |"
+          }
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "level": "warning",
+        "message": "LimeSurvey question type | is not supported and was skipped.",
+        "fieldId": "34",
+        "questionCode": "upload",
+        "code": "UNSUPPORTED_TYPE",
+        "details": {
+          "sourceType": "|"
+        }
+      }
+    ],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "K",
+        "Q",
+        "|"
+      ],
+      "parsedTypes": [
+        "K",
+        "Q"
+      ],
+      "unsupportedTypes": [
+        "|"
+      ],
+      "totalGroups": 1,
+      "totalQuestions": 24,
+      "topLevelQuestions": 4,
+      "parsedFields": 3,
+      "integratedSubquestions": 20,
+      "questionsWithoutReportedIssues": 3,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 1,
+      "conditionsDetected": 4,
+      "conditionsConverted": 3,
+      "validationsDetected": 0,
+      "validationsConverted": 0,
+      "warnings": 1,
+      "errors": 0,
+      "coveragePercent": 75
+    }
+  },
+  {
+    "sid": "471215",
+    "title": "CUIDADOS EN LA FCPyS-UNAM",
+    "state": "rejected",
+    "stateLabel": "Rechazada",
+    "operation": "failed",
+    "causes": [
+      "D9: La pregunta D9, «Carrera o Posgrado», ofrece Ciencias de la comunicación (A1), Maestría (A2), Doctorado (A3) y «Otro». La configuración indica que, al abrir el formulario, ya debe estar seleccionada «Otra licenciatura dentro de la FCPyS». Ese texto no es A1, A2 ni A3. Tampoco se entrega separado como una selección de «Otro» con su texto. limesurvey-rc2-api no decide automáticamente que significa «Otro» y rechaza la importación."
+    ],
+    "explanations": [
+      {
+        "category": "invalid_default",
+        "question": "D9",
+        "original": "defaultvalue = \"Otra licenciatura dentro de la FCPyS\"",
+        "text": "La pregunta D9, «Carrera o Posgrado», ofrece Ciencias de la comunicación (A1), Maestría (A2), Doctorado (A3) y «Otro». La configuración indica que, al abrir el formulario, ya debe estar seleccionada «Otra licenciatura dentro de la FCPyS». Ese texto no es A1, A2 ni A3. Tampoco se entrega separado como una selección de «Otro» con su texto. limesurvey-rc2-api no decide automáticamente que significa «Otro» y rechaza la importación."
+      }
+    ],
+    "causeGroups": [
+      {
+        "category": "invalid_default",
+        "questions": [
+          "D9"
+        ],
+        "text": "La pregunta D9, «Carrera o Posgrado», ofrece Ciencias de la comunicación (A1), Maestría (A2), Doctorado (A3) y «Otro». La configuración indica que, al abrir el formulario, ya debe estar seleccionada «Otra licenciatura dentro de la FCPyS». Ese texto no es A1, A2 ni A3. Tampoco se entrega separado como una selección de «Otro» con su texto. limesurvey-rc2-api no decide automáticamente que significa «Otro» y rechaza la importación.",
+        "originals": [
+          {
+            "question": "D9",
+            "value": "defaultvalue = \"Otra licenciatura dentro de la FCPyS\""
+          }
+        ]
+      }
+    ],
+    "issues": [],
+    "error": {
+      "status": null,
+      "stage": "parse",
+      "code": "LS_SURVEY_STRUCTURE_INVALID",
+      "message": "SurveyLoadResult output violates the shared contract at survey.fields.7.defaultValue: The default value references an option or response item that does not exist. (D9)",
+      "errors": [
+        {
+          "path": [
+            "survey",
+            "fields",
+            7,
+            "defaultValue"
+          ],
+          "code": "custom",
+          "message": "The default value references an option or response item that does not exist. (D9)",
+          "params": {
+            "reason": "default-value-reference-missing",
+            "fieldCode": "D9",
+            "responseItemCode": "Otra licenciatura dentro de la FCPyS",
+            "itemType": "option"
+          }
+        }
+      ],
+      "expectedApiStatus": 422
+    },
+    "stats": {}
+  },
+  {
+    "sid": "921577",
+    "title": "Encuesta alumnos licenciatura 2021",
+    "state": "rejected",
+    "stateLabel": "Rechazada",
+    "operation": "failed",
+    "causes": [
+      "GUBB: La condición consulta la opción 14 de q0r353, pero esa opción no está entre las recibidas para esa pregunta. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta.",
+      "GUB9999: La condición consulta la opción 13 de q0r611, pero esa opción no está entre las recibidas para esa pregunta. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta.",
+      "gubern00001: La condición consulta la opción A13 de q0r828, pero esa opción no está entre las recibidas para esa pregunta. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta.",
+      "BUG55: La condición consulta la opción 13 de q0r1001, pero esa opción no está entre las recibidas para esa pregunta. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta.",
+      "GUBW45: La condición consulta la opción 13 de q0r352, pero esa opción no está entre las recibidas para esa pregunta. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta.",
+      "gub56: La condición consulta la opción 13 de q0r246, pero esa opción no está entre las recibidas para esa pregunta. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta."
+    ],
+    "explanations": [
+      {
+        "category": "rejected_structure",
+        "question": "GUBB",
+        "original": "(((!is_empty(921577X103X6427.NAOK) && (921577X103X6427.NAOK == 14))))",
+        "text": "La condición consulta la opción 14 de q0r353, pero esa opción no está entre las recibidas para esa pregunta. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta."
+      },
+      {
+        "category": "rejected_structure",
+        "question": "GUB9999",
+        "original": "(((!is_empty(921577X103X6800.NAOK) && (921577X103X6800.NAOK == 13))))",
+        "text": "La condición consulta la opción 13 de q0r611, pero esa opción no está entre las recibidas para esa pregunta. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta."
+      },
+      {
+        "category": "rejected_structure",
+        "question": "gubern00001",
+        "original": "((921577X103X6938.NAOK == \"A13\"))",
+        "text": "La condición consulta la opción A13 de q0r828, pero esa opción no está entre las recibidas para esa pregunta. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta."
+      },
+      {
+        "category": "rejected_structure",
+        "question": "BUG55",
+        "original": "(((!is_empty(921577X103X7078.NAOK) && (921577X103X7078.NAOK == 13))))",
+        "text": "La condición consulta la opción 13 de q0r1001, pero esa opción no está entre las recibidas para esa pregunta. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta."
+      },
+      {
+        "category": "rejected_structure",
+        "question": "GUBW45",
+        "original": "(((!is_empty(921577X103X7356.NAOK) && (921577X103X7356.NAOK == 13))))",
+        "text": "La condición consulta la opción 13 de q0r352, pero esa opción no está entre las recibidas para esa pregunta. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta."
+      },
+      {
+        "category": "rejected_structure",
+        "question": "gub56",
+        "original": "(((!is_empty(921577X103X7447.NAOK) && (921577X103X7447.NAOK == 13))))",
+        "text": "La condición consulta la opción 13 de q0r246, pero esa opción no está entre las recibidas para esa pregunta. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta."
+      }
+    ],
+    "causeGroups": [
+      {
+        "category": "rejected_structure",
+        "questions": [
+          "GUBB"
+        ],
+        "text": "La condición consulta la opción 14 de q0r353, pero esa opción no está entre las recibidas para esa pregunta. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta.",
+        "originals": [
+          {
+            "question": "GUBB",
+            "value": "(((!is_empty(921577X103X6427.NAOK) && (921577X103X6427.NAOK == 14))))"
+          }
+        ]
+      },
+      {
+        "category": "rejected_structure",
+        "questions": [
+          "GUB9999"
+        ],
+        "text": "La condición consulta la opción 13 de q0r611, pero esa opción no está entre las recibidas para esa pregunta. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta.",
+        "originals": [
+          {
+            "question": "GUB9999",
+            "value": "(((!is_empty(921577X103X6800.NAOK) && (921577X103X6800.NAOK == 13))))"
+          }
+        ]
+      },
+      {
+        "category": "rejected_structure",
+        "questions": [
+          "gubern00001"
+        ],
+        "text": "La condición consulta la opción A13 de q0r828, pero esa opción no está entre las recibidas para esa pregunta. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta.",
+        "originals": [
+          {
+            "question": "gubern00001",
+            "value": "((921577X103X6938.NAOK == \"A13\"))"
+          }
+        ]
+      },
+      {
+        "category": "rejected_structure",
+        "questions": [
+          "BUG55"
+        ],
+        "text": "La condición consulta la opción 13 de q0r1001, pero esa opción no está entre las recibidas para esa pregunta. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta.",
+        "originals": [
+          {
+            "question": "BUG55",
+            "value": "(((!is_empty(921577X103X7078.NAOK) && (921577X103X7078.NAOK == 13))))"
+          }
+        ]
+      },
+      {
+        "category": "rejected_structure",
+        "questions": [
+          "GUBW45"
+        ],
+        "text": "La condición consulta la opción 13 de q0r352, pero esa opción no está entre las recibidas para esa pregunta. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta.",
+        "originals": [
+          {
+            "question": "GUBW45",
+            "value": "(((!is_empty(921577X103X7356.NAOK) && (921577X103X7356.NAOK == 13))))"
+          }
+        ]
+      },
+      {
+        "category": "rejected_structure",
+        "questions": [
+          "gub56"
+        ],
+        "text": "La condición consulta la opción 13 de q0r246, pero esa opción no está entre las recibidas para esa pregunta. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta.",
+        "originals": [
+          {
+            "question": "gub56",
+            "value": "(((!is_empty(921577X103X7447.NAOK) && (921577X103X7447.NAOK == 13))))"
+          }
+        ]
+      }
+    ],
+    "issues": [],
+    "error": {
+      "status": null,
+      "stage": "parse",
+      "code": "LS_SURVEY_STRUCTURE_INVALID",
+      "message": "SurveyLoadResult output violates the shared contract at survey.fields.413.visibility.condition.conditions.1.value: The comparison value does not match the response type or its declared options. (q0r353)",
+      "errors": [
+        {
+          "path": [
+            "survey",
+            "fields",
+            413,
+            "visibility",
+            "condition",
+            "conditions",
+            1,
+            "value"
+          ],
+          "code": "custom",
+          "message": "The comparison value does not match the response type or its declared options. (q0r353)",
+          "params": {
+            "reason": "comparison-value-type-mismatch",
+            "fieldCode": "q0r353",
+            "owner": "field \"GUBB\""
+          }
+        },
+        {
+          "path": [
+            "survey",
+            "fields",
+            573,
+            "visibility",
+            "condition",
+            "conditions",
+            1,
+            "value"
+          ],
+          "code": "custom",
+          "message": "The comparison value does not match the response type or its declared options. (q0r611)",
+          "params": {
+            "reason": "comparison-value-type-mismatch",
+            "fieldCode": "q0r611",
+            "owner": "field \"GUB9999\""
+          }
+        },
+        {
+          "path": [
+            "survey",
+            "fields",
+            631,
+            "visibility",
+            "condition",
+            "value"
+          ],
+          "code": "custom",
+          "message": "The comparison value does not match the response type or its declared options. (q0r828)",
+          "params": {
+            "reason": "comparison-value-type-mismatch",
+            "fieldCode": "q0r828",
+            "owner": "field \"gubern00001\""
+          }
+        },
+        {
+          "path": [
+            "survey",
+            "fields",
+            680,
+            "visibility",
+            "condition",
+            "conditions",
+            1,
+            "value"
+          ],
+          "code": "custom",
+          "message": "The comparison value does not match the response type or its declared options. (q0r1001)",
+          "params": {
+            "reason": "comparison-value-type-mismatch",
+            "fieldCode": "q0r1001",
+            "owner": "field \"BUG55\""
+          }
+        },
+        {
+          "path": [
+            "survey",
+            "fields",
+            815,
+            "visibility",
+            "condition",
+            "conditions",
+            1,
+            "value"
+          ],
+          "code": "custom",
+          "message": "The comparison value does not match the response type or its declared options. (q0r352)",
+          "params": {
+            "reason": "comparison-value-type-mismatch",
+            "fieldCode": "q0r352",
+            "owner": "field \"GUBW45\""
+          }
+        },
+        {
+          "path": [
+            "survey",
+            "fields",
+            859,
+            "visibility",
+            "condition",
+            "conditions",
+            1,
+            "value"
+          ],
+          "code": "custom",
+          "message": "The comparison value does not match the response type or its declared options. (q0r246)",
+          "params": {
+            "reason": "comparison-value-type-mismatch",
+            "fieldCode": "q0r246",
+            "owner": "field \"gub56\""
+          }
+        }
+      ],
+      "expectedApiStatus": 422
+    },
+    "stats": {}
+  },
+  {
+    "sid": "646775",
+    "title": "Encuesta alumnos licenciatura 2021 - inicio",
+    "state": "rejected",
+    "stateLabel": "Rechazada",
+    "operation": "failed",
+    "causes": [
+      "agriculturaq0r411: La condición consulta si se eligió A21 en areatrabajo, pero esa pregunta sólo tiene las opciones A02 a A20 y «Otro». No existe A21 entre las opciones recibidas. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta."
+    ],
+    "explanations": [
+      {
+        "category": "rejected_structure",
+        "question": "agriculturaq0r411",
+        "original": "((646775X116X9355.NAOK == \"A21\"))",
+        "text": "La condición consulta si se eligió A21 en areatrabajo, pero esa pregunta sólo tiene las opciones A02 a A20 y «Otro». No existe A21 entre las opciones recibidas. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta."
+      }
+    ],
+    "causeGroups": [
+      {
+        "category": "rejected_structure",
+        "questions": [
+          "agriculturaq0r411"
+        ],
+        "text": "La condición consulta si se eligió A21 en areatrabajo, pero esa pregunta sólo tiene las opciones A02 a A20 y «Otro». No existe A21 entre las opciones recibidas. SurveyStructure comprueba que los códigos usados en esas comparaciones estén entre las opciones de las preguntas consultadas. Al faltar alguno, rechaza el resultado de la conversión y no se importa la encuesta.",
+        "originals": [
+          {
+            "question": "agriculturaq0r411",
+            "value": "((646775X116X9355.NAOK == \"A21\"))"
+          }
+        ]
+      }
+    ],
+    "issues": [],
+    "error": {
+      "status": null,
+      "stage": "parse",
+      "code": "LS_SURVEY_STRUCTURE_INVALID",
+      "message": "SurveyLoadResult output violates the shared contract at survey.fields.71.visibility.condition.value: The comparison value does not match the response type or its declared options. (areatrabajo)",
+      "errors": [
+        {
+          "path": [
+            "survey",
+            "fields",
+            71,
+            "visibility",
+            "condition",
+            "value"
+          ],
+          "code": "custom",
+          "message": "The comparison value does not match the response type or its declared options. (areatrabajo)",
+          "params": {
+            "reason": "comparison-value-type-mismatch",
+            "fieldCode": "areatrabajo",
+            "owner": "field \"agriculturaq0r411\""
+          }
+        }
+      ],
+      "expectedApiStatus": 422
+    },
+    "stats": {}
+  },
+  {
+    "sid": "197567",
+    "title": "Ensayo Mayra Adriana",
+    "state": "rejected",
+    "stateLabel": "Rechazada",
+    "operation": "failed",
+    "causes": [
+      "EnfHnos: La condición de EnfHnos compara la respuesta numérica de NoHermanos con un texto que contiene un espacio, usando «mayor o igual» (>=). limesurvey-rc2-api exige un número para esa comparación y no transforma ese espacio en cero. La regla no puede convertirse con esa escritura y se rechaza la importación de la encuesta."
+    ],
+    "explanations": [
+      {
+        "category": "rejected_structure",
+        "question": "EnfHnos",
+        "original": "((197567X67X1725.NAOK >= \" \") and (197567X67X3137.NAOK == \"Y\"))",
+        "text": "La condición de EnfHnos compara la respuesta numérica de NoHermanos con un texto que contiene un espacio, usando «mayor o igual» (>=). limesurvey-rc2-api exige un número para esa comparación y no transforma ese espacio en cero. La regla no puede convertirse con esa escritura y se rechaza la importación de la encuesta."
+      }
+    ],
+    "causeGroups": [
+      {
+        "category": "rejected_structure",
+        "questions": [
+          "EnfHnos"
+        ],
+        "text": "La condición de EnfHnos compara la respuesta numérica de NoHermanos con un texto que contiene un espacio, usando «mayor o igual» (>=). limesurvey-rc2-api exige un número para esa comparación y no transforma ese espacio en cero. La regla no puede convertirse con esa escritura y se rechaza la importación de la encuesta.",
+        "originals": [
+          {
+            "question": "EnfHnos",
+            "value": "((197567X67X1725.NAOK >= \" \") and (197567X67X3137.NAOK == \"Y\"))"
+          }
+        ]
+      }
+    ],
+    "issues": [],
+    "error": {
+      "status": null,
+      "stage": "parse",
+      "code": "LS_SURVEY_STRUCTURE_INVALID",
+      "message": "SurveyLoadResult output violates the shared contract at survey.fields.27.visibility.condition.conditions.0.value: The comparison value does not match the response type or its declared options. (NoHermanos)",
+      "errors": [
+        {
+          "path": [
+            "survey",
+            "fields",
+            27,
+            "visibility",
+            "condition",
+            "conditions",
+            0,
+            "value"
+          ],
+          "code": "custom",
+          "message": "The comparison value does not match the response type or its declared options. (NoHermanos)",
+          "params": {
+            "reason": "comparison-value-type-mismatch",
+            "fieldCode": "NoHermanos",
+            "owner": "field \"EnfHnos\""
+          }
+        }
+      ],
+      "expectedApiStatus": 422
+    },
+    "stats": {}
+  },
+  {
+    "sid": "376273",
+    "title": "octavio",
+    "state": "rejected",
+    "stateLabel": "Rechazada",
+    "operation": "failed",
+    "causes": [
+      "p57: La pregunta p57 ofrece una sola opción, identificada con el código A1. La configuración que indica qué opción debe aparecer seleccionada al abrir el formulario contiene 56 caracteres de espacio, como pulsar 56 veces la barra espaciadora. Para marcar esa opción tendría que contener A1. limesurvey-rc2-api tampoco trata esos espacios como una pregunta sin selección inicial; por eso rechaza la importación."
+    ],
+    "explanations": [
+      {
+        "category": "invalid_default",
+        "question": "p57",
+        "original": "defaultvalue = \"                                                        \"\nLongitud: 56 espacios",
+        "text": "La pregunta p57 ofrece una sola opción, identificada con el código A1. La configuración que indica qué opción debe aparecer seleccionada al abrir el formulario contiene 56 caracteres de espacio, como pulsar 56 veces la barra espaciadora. Para marcar esa opción tendría que contener A1. limesurvey-rc2-api tampoco trata esos espacios como una pregunta sin selección inicial; por eso rechaza la importación."
+      }
+    ],
+    "causeGroups": [
+      {
+        "category": "invalid_default",
+        "questions": [
+          "p57"
+        ],
+        "text": "La pregunta p57 ofrece una sola opción, identificada con el código A1. La configuración que indica qué opción debe aparecer seleccionada al abrir el formulario contiene 56 caracteres de espacio, como pulsar 56 veces la barra espaciadora. Para marcar esa opción tendría que contener A1. limesurvey-rc2-api tampoco trata esos espacios como una pregunta sin selección inicial; por eso rechaza la importación.",
+        "originals": [
+          {
+            "question": "p57",
+            "value": "defaultvalue = \"                                                        \"\nLongitud: 56 espacios"
+          }
+        ]
+      }
+    ],
+    "issues": [],
+    "error": {
+      "status": null,
+      "stage": "parse",
+      "code": "LS_SURVEY_STRUCTURE_INVALID",
+      "message": "SurveyLoadResult output violates the shared contract at survey.fields.56.defaultValue: The default value references an option or response item that does not exist. (p57)",
+      "errors": [
+        {
+          "path": [
+            "survey",
+            "fields",
+            56,
+            "defaultValue"
+          ],
+          "code": "custom",
+          "message": "The default value references an option or response item that does not exist. (p57)",
+          "params": {
+            "reason": "default-value-reference-missing",
+            "fieldCode": "p57",
+            "responseItemCode": "                                                        ",
+            "itemType": "option"
+          }
+        }
+      ],
+      "expectedApiStatus": 422
+    },
+    "stats": {}
+  },
+  {
+    "sid": "272167",
+    "title": "B . Antecedentes personales (ancestros)",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        "D",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "T",
+        "Y"
+      ],
+      "parsedTypes": [
+        "!",
+        "D",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "T",
+        "Y"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 2,
+      "totalQuestions": 947,
+      "topLevelQuestions": 347,
+      "parsedFields": 347,
+      "integratedSubquestions": 600,
+      "questionsWithoutReportedIssues": 347,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 347,
+      "conditionsConverted": 347,
+      "validationsDetected": 3,
+      "validationsConverted": 3,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "687329",
+    "title": "cuestionario - injuve 2018",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        ";",
+        "D",
+        "L",
+        "M",
+        "N",
+        "P",
+        "Q",
+        "S",
+        "T",
+        "Y"
+      ],
+      "parsedTypes": [
+        "!",
+        ";",
+        "D",
+        "L",
+        "M",
+        "N",
+        "P",
+        "Q",
+        "S",
+        "T",
+        "Y"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 5,
+      "totalQuestions": 128,
+      "topLevelQuestions": 33,
+      "parsedFields": 33,
+      "integratedSubquestions": 95,
+      "questionsWithoutReportedIssues": 33,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 33,
+      "conditionsConverted": 33,
+      "validationsDetected": 5,
+      "validationsConverted": 5,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "769675",
+    "title": "cuestionario - injuve 2018",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        ";",
+        "D",
+        "L",
+        "M",
+        "N",
+        "P",
+        "Q",
+        "S",
+        "T",
+        "Y"
+      ],
+      "parsedTypes": [
+        "!",
+        ";",
+        "D",
+        "L",
+        "M",
+        "N",
+        "P",
+        "Q",
+        "S",
+        "T",
+        "Y"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 5,
+      "totalQuestions": 128,
+      "topLevelQuestions": 33,
+      "parsedFields": 33,
+      "integratedSubquestions": 95,
+      "questionsWithoutReportedIssues": 33,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 33,
+      "conditionsConverted": 33,
+      "validationsDetected": 5,
+      "validationsConverted": 5,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "518947",
+    "title": "Cuestionario 1076 realizado en 2014 (ROMEL EJEMPLO)",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        ";",
+        "B",
+        "D",
+        "F",
+        "G",
+        "L",
+        "M",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "Y"
+      ],
+      "parsedTypes": [
+        "!",
+        ";",
+        "B",
+        "D",
+        "F",
+        "G",
+        "L",
+        "M",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "Y"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 7,
+      "totalQuestions": 278,
+      "topLevelQuestions": 95,
+      "parsedFields": 95,
+      "integratedSubquestions": 183,
+      "questionsWithoutReportedIssues": 95,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 95,
+      "conditionsConverted": 95,
+      "validationsDetected": 2,
+      "validationsConverted": 2,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "292111",
+    "title": "Cuestionario para población con Diabetes mellitus",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        ";",
+        "D",
+        "F",
+        "G",
+        "L",
+        "M",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "Y"
+      ],
+      "parsedTypes": [
+        "!",
+        ";",
+        "D",
+        "F",
+        "G",
+        "L",
+        "M",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "Y"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 9,
+      "totalQuestions": 416,
+      "topLevelQuestions": 138,
+      "parsedFields": 138,
+      "integratedSubquestions": 278,
+      "questionsWithoutReportedIssues": 138,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 138,
+      "conditionsConverted": 138,
+      "validationsDetected": 2,
+      "validationsConverted": 2,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "536293",
+    "title": "Cuidados EN EL IER-UNAM",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        "F",
+        "L",
+        "M",
+        "Q",
+        "S",
+        "T"
+      ],
+      "parsedTypes": [
+        "!",
+        "F",
+        "L",
+        "M",
+        "Q",
+        "S",
+        "T"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 3,
+      "totalQuestions": 78,
+      "topLevelQuestions": 23,
+      "parsedFields": 23,
+      "integratedSubquestions": 55,
+      "questionsWithoutReportedIssues": 23,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 25,
+      "conditionsConverted": 25,
+      "validationsDetected": 21,
+      "validationsConverted": 21,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "753899",
+    "title": "CUIDADOS EN IER-UNAM",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        "F",
+        "L",
+        "M",
+        "Q",
+        "S",
+        "T"
+      ],
+      "parsedTypes": [
+        "!",
+        "F",
+        "L",
+        "M",
+        "Q",
+        "S",
+        "T"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 3,
+      "totalQuestions": 78,
+      "topLevelQuestions": 23,
+      "parsedFields": 23,
+      "integratedSubquestions": 55,
+      "questionsWithoutReportedIssues": 23,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 25,
+      "conditionsConverted": 25,
+      "validationsDetected": 21,
+      "validationsConverted": 21,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "921974",
+    "title": "Cuidados para la Vida y el Bien Común",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        "F",
+        "L",
+        "M",
+        "Q",
+        "S",
+        "T"
+      ],
+      "parsedTypes": [
+        "!",
+        "F",
+        "L",
+        "M",
+        "Q",
+        "S",
+        "T"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 3,
+      "totalQuestions": 84,
+      "topLevelQuestions": 21,
+      "parsedFields": 21,
+      "integratedSubquestions": 63,
+      "questionsWithoutReportedIssues": 21,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 23,
+      "conditionsConverted": 23,
+      "validationsDetected": 21,
+      "validationsConverted": 21,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "312481",
+    "title": "Cuidados para la Vida y el Bien Común para Cuernavaca",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        "F",
+        "L",
+        "M",
+        "Q",
+        "S",
+        "T"
+      ],
+      "parsedTypes": [
+        "!",
+        "F",
+        "L",
+        "M",
+        "Q",
+        "S",
+        "T"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 3,
+      "totalQuestions": 84,
+      "topLevelQuestions": 21,
+      "parsedFields": 21,
+      "integratedSubquestions": 63,
+      "questionsWithoutReportedIssues": 21,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 23,
+      "conditionsConverted": 23,
+      "validationsDetected": 21,
+      "validationsConverted": 21,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "526637",
+    "title": "Demo",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        "G",
+        "H",
+        "L",
+        "M",
+        "N",
+        "Q",
+        "Y"
+      ],
+      "parsedTypes": [
+        "!",
+        "G",
+        "H",
+        "L",
+        "M",
+        "N",
+        "Q",
+        "Y"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 2,
+      "totalQuestions": 23,
+      "topLevelQuestions": 8,
+      "parsedFields": 8,
+      "integratedSubquestions": 15,
+      "questionsWithoutReportedIssues": 8,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 8,
+      "conditionsConverted": 8,
+      "validationsDetected": 3,
+      "validationsConverted": 3,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "611415",
+    "title": "Demo",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        "B",
+        "G",
+        "L",
+        "M",
+        "N",
+        "Q",
+        "Y"
+      ],
+      "parsedTypes": [
+        "!",
+        "B",
+        "G",
+        "L",
+        "M",
+        "N",
+        "Q",
+        "Y"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 2,
+      "totalQuestions": 17,
+      "topLevelQuestions": 8,
+      "parsedFields": 8,
+      "integratedSubquestions": 9,
+      "questionsWithoutReportedIssues": 8,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 8,
+      "conditionsConverted": 8,
+      "validationsDetected": 3,
+      "validationsConverted": 3,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "137458",
+    "title": "Demo Juan",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "D"
+      ],
+      "parsedTypes": [
+        "D"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 1,
+      "totalQuestions": 1,
+      "topLevelQuestions": 1,
+      "parsedFields": 1,
+      "integratedSubquestions": 0,
+      "questionsWithoutReportedIssues": 1,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 1,
+      "conditionsConverted": 1,
+      "validationsDetected": 0,
+      "validationsConverted": 0,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "469757",
+    "title": "Encuesta alumnos licenciatura 2021 - inicio",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        "D",
+        "F",
+        "G",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "S",
+        "T",
+        "Y"
+      ],
+      "parsedTypes": [
+        "!",
+        "D",
+        "F",
+        "G",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "S",
+        "T",
+        "Y"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 5,
+      "totalQuestions": 229,
+      "topLevelQuestions": 125,
+      "parsedFields": 125,
+      "integratedSubquestions": 104,
+      "questionsWithoutReportedIssues": 125,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 126,
+      "conditionsConverted": 126,
+      "validationsDetected": 2,
+      "validationsConverted": 2,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "361168",
+    "title": "Encuesta COVID-19 y vacunas",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "F",
+        "L",
+        "N",
+        "Y"
+      ],
+      "parsedTypes": [
+        "F",
+        "L",
+        "N",
+        "Y"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 5,
+      "totalQuestions": 53,
+      "topLevelQuestions": 22,
+      "parsedFields": 22,
+      "integratedSubquestions": 31,
+      "questionsWithoutReportedIssues": 22,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 22,
+      "conditionsConverted": 22,
+      "validationsDetected": 22,
+      "validationsConverted": 22,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "551452",
+    "title": "Encuesta de conocimiento sobre los cuidados en la comunidad del CCH-UNAM",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "F",
+        "L",
+        "M",
+        "N",
+        "P",
+        "Q",
+        "R",
+        "T"
+      ],
+      "parsedTypes": [
+        "F",
+        "L",
+        "M",
+        "N",
+        "P",
+        "Q",
+        "R",
+        "T"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 7,
+      "totalQuestions": 205,
+      "topLevelQuestions": 48,
+      "parsedFields": 48,
+      "integratedSubquestions": 157,
+      "questionsWithoutReportedIssues": 48,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 54,
+      "conditionsConverted": 54,
+      "validationsDetected": 46,
+      "validationsConverted": 46,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "783587",
+    "title": "ENCUESTA DE CONOCIMIENTO SOBRE LOS CUIDADOS ENTRE LA POBLACIÓN ESTUDIANTIL DEL COLEGIO DE CIENCIAS Y HUMANIDADES",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "F",
+        "H",
+        "L",
+        "M",
+        "P",
+        "Q",
+        "S",
+        "T"
+      ],
+      "parsedTypes": [
+        "F",
+        "H",
+        "L",
+        "M",
+        "P",
+        "Q",
+        "S",
+        "T"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 7,
+      "totalQuestions": 186,
+      "topLevelQuestions": 44,
+      "parsedFields": 44,
+      "integratedSubquestions": 142,
+      "questionsWithoutReportedIssues": 44,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 50,
+      "conditionsConverted": 50,
+      "validationsDetected": 43,
+      "validationsConverted": 43,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "527565",
+    "title": "Escalas de Psicología Conductoma",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        "D",
+        "G",
+        "L",
+        "N",
+        "S",
+        "Y"
+      ],
+      "parsedTypes": [
+        "!",
+        "D",
+        "G",
+        "L",
+        "N",
+        "S",
+        "Y"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 2,
+      "totalQuestions": 139,
+      "topLevelQuestions": 139,
+      "parsedFields": 139,
+      "integratedSubquestions": 0,
+      "questionsWithoutReportedIssues": 139,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 139,
+      "conditionsConverted": 139,
+      "validationsDetected": 134,
+      "validationsConverted": 134,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "186933",
+    "title": "ffhfghfghf",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "T"
+      ],
+      "parsedTypes": [
+        "T"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 1,
+      "totalQuestions": 1,
+      "topLevelQuestions": 1,
+      "parsedFields": 1,
+      "integratedSubquestions": 0,
+      "questionsWithoutReportedIssues": 1,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 1,
+      "conditionsConverted": 1,
+      "validationsDetected": 0,
+      "validationsConverted": 0,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "549829",
+    "title": "Mariana",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        "D",
+        "F",
+        "G",
+        "H",
+        "L",
+        "M",
+        "N",
+        "P",
+        "Q",
+        "S",
+        "T",
+        "Y"
+      ],
+      "parsedTypes": [
+        "!",
+        "D",
+        "F",
+        "G",
+        "H",
+        "L",
+        "M",
+        "N",
+        "P",
+        "Q",
+        "S",
+        "T",
+        "Y"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 11,
+      "totalQuestions": 276,
+      "topLevelQuestions": 140,
+      "parsedFields": 140,
+      "integratedSubquestions": 136,
+      "questionsWithoutReportedIssues": 140,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 140,
+      "conditionsConverted": 140,
+      "validationsDetected": 2,
+      "validationsConverted": 2,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "563198",
+    "title": "Percepciones sobre COVID-19 2022",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        "5",
+        "C",
+        "D",
+        "F",
+        "L",
+        "M",
+        "N",
+        "S",
+        "T",
+        "Y"
+      ],
+      "parsedTypes": [
+        "!",
+        "5",
+        "C",
+        "D",
+        "F",
+        "L",
+        "M",
+        "N",
+        "S",
+        "T",
+        "Y"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 11,
+      "totalQuestions": 125,
+      "topLevelQuestions": 87,
+      "parsedFields": 87,
+      "integratedSubquestions": 38,
+      "questionsWithoutReportedIssues": 87,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 87,
+      "conditionsConverted": 87,
+      "validationsDetected": 83,
+      "validationsConverted": 83,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "444444",
+    "title": "Prueba - Escalas PSI Conductoma",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        "D",
+        "G",
+        "L",
+        "N",
+        "S",
+        "Y"
+      ],
+      "parsedTypes": [
+        "!",
+        "D",
+        "G",
+        "L",
+        "N",
+        "S",
+        "Y"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 2,
+      "totalQuestions": 139,
+      "topLevelQuestions": 139,
+      "parsedFields": 139,
+      "integratedSubquestions": 0,
+      "questionsWithoutReportedIssues": 139,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 139,
+      "conditionsConverted": 139,
+      "validationsDetected": 134,
+      "validationsConverted": 134,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "199196",
+    "title": "Prueba de nuevo cuestionario",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        "G",
+        "Q",
+        "Y"
+      ],
+      "parsedTypes": [
+        "!",
+        "G",
+        "Q",
+        "Y"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 1,
+      "totalQuestions": 7,
+      "topLevelQuestions": 4,
+      "parsedFields": 4,
+      "integratedSubquestions": 3,
+      "questionsWithoutReportedIssues": 4,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 4,
+      "conditionsConverted": 4,
+      "validationsDetected": 2,
+      "validationsConverted": 2,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "569995",
+    "title": "Prueba Juan José",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        "F",
+        "G",
+        "P",
+        "S"
+      ],
+      "parsedTypes": [
+        "!",
+        "F",
+        "G",
+        "P",
+        "S"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 2,
+      "totalQuestions": 13,
+      "topLevelQuestions": 8,
+      "parsedFields": 8,
+      "integratedSubquestions": 5,
+      "questionsWithoutReportedIssues": 8,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 8,
+      "conditionsConverted": 8,
+      "validationsDetected": 3,
+      "validationsConverted": 3,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "518242",
+    "title": "prueba papiit",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        "G",
+        "N",
+        "T",
+        "Y"
+      ],
+      "parsedTypes": [
+        "!",
+        "G",
+        "N",
+        "T",
+        "Y"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 1,
+      "totalQuestions": 5,
+      "topLevelQuestions": 5,
+      "parsedFields": 5,
+      "integratedSubquestions": 0,
+      "questionsWithoutReportedIssues": 5,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 5,
+      "conditionsConverted": 5,
+      "validationsDetected": 3,
+      "validationsConverted": 3,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "474241",
+    "title": "Reporta - Sistema Ciudadano de Monitoreo Epidemiológico",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        "G",
+        "Q",
+        "S"
+      ],
+      "parsedTypes": [
+        "!",
+        "G",
+        "Q",
+        "S"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 2,
+      "totalQuestions": 9,
+      "topLevelQuestions": 6,
+      "parsedFields": 6,
+      "integratedSubquestions": 3,
+      "questionsWithoutReportedIssues": 6,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 6,
+      "conditionsConverted": 6,
+      "validationsDetected": 1,
+      "validationsConverted": 1,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "887552",
+    "title": "Reporta a un animal",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "T"
+      ],
+      "parsedTypes": [
+        "T"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 1,
+      "totalQuestions": 3,
+      "topLevelQuestions": 3,
+      "parsedFields": 3,
+      "integratedSubquestions": 0,
+      "questionsWithoutReportedIssues": 3,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 3,
+      "conditionsConverted": 3,
+      "validationsDetected": 3,
+      "validationsConverted": 3,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  },
+  {
+    "sid": "927264",
+    "title": "¡Bienvenido a la serie de las ecuestas SALUDable!",
+    "state": "complete",
+    "stateLabel": "Sin advertencias",
+    "operation": "validated",
+    "causes": [],
+    "explanations": [],
+    "causeGroups": [],
+    "issues": [],
+    "error": {},
+    "stats": {
+      "detectedTypes": [
+        "!",
+        "O",
+        "S",
+        "T",
+        "Y"
+      ],
+      "parsedTypes": [
+        "!",
+        "O",
+        "S",
+        "T",
+        "Y"
+      ],
+      "unsupportedTypes": [],
+      "totalGroups": 10,
+      "totalQuestions": 179,
+      "topLevelQuestions": 179,
+      "parsedFields": 179,
+      "integratedSubquestions": 0,
+      "questionsWithoutReportedIssues": 179,
+      "partiallyConvertedQuestions": 0,
+      "unsupportedQuestions": 0,
+      "conditionsDetected": 179,
+      "conditionsConverted": 179,
+      "validationsDetected": 166,
+      "validationsConverted": 166,
+      "warnings": 0,
+      "errors": 0,
+      "coveragePercent": 100
+    }
+  }
+]
